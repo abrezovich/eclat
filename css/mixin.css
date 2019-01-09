@@ -1,0 +1,20 @@
+@mixin size($width, $heige) {
+    width: $width;
+    height: $heige;
+  }
+  @mixin font-settings($size, $family, $color) {
+    font-size: $size;
+    font-family: $family;
+    color: $color;
+  }
+  @mixin text-decor($decor,$upper){
+    text-decoration: $decor;
+    text-transform: $upper;
+  }
+  @mixin flex($display, $wrap, $j-content,$a-item, $a-content){
+    display: $display;
+    flex-wrap: $wrap;
+    justify-content: $j-content;
+    align-items: $a-item;
+    align-content: $a-content;
+  } 
