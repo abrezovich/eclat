@@ -4,7 +4,9 @@
     padding: 0;
 }
 body{
-    display: block;
+    background: url(../img/index_img/bacground.jpg) no-repeat;
+    display: flex;
+    justify-content: center;
     width: 1920px;
     margin: auto;
 }
