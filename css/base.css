@@ -4,9 +4,21 @@
     padding: 0;
 }
 body{
-    background: url(../img/index_img/bacground.jpg) no-repeat;
-    display: flex;
-    justify-content: center;
-    width: 1920px;
+    background: url(../img/index_img/bacground.jpg);
+    background-color: #f8eed5;
+    min-height: 100vh;
+    position: relative;
     margin: auto;
+    background-size: cover;
+    padding-top: 1.25rem;
+   
+}
+.box-body{
+    display: flex;
+    min-width: 100%;
+    min-height: 1000px;
+    margin: auto;
+    
+    align-items: center;   
+    justify-content: center;
 }
