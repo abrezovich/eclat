@@ -1,0 +1,45 @@
+.main {
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: $background-color;
+    position: relative;
+}
+
+.main::before {
+    @include size(px-to-rem(50px), px-to-rem(50px));
+    content: '\2693';
+    color: $header-link-hover-color;
+    border-radius: px-to-rem(25px) px-to-rem(25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: $header-link-color;
+    left: 49%;
+    top: -0.5%;
+    font-size: px-to-rem(40px);
+    box-shadow: 0 -4px 3px 5px rgba(80, 75, 68, 0.3);
+}
+
+.trait-box {
+    @include flex(flex, '', center, center, '');
+    margin-bottom: px-to-rem(65px);
+    &-point {
+        @include size(px-to-rem(10px), px-to-rem(10px));
+        border-radius: px-to-rem(10px);
+        background-color: $header-link-hover-color;
+        margin: 0 px-to-rem(18px) 0 px-to-rem(18px);
+    }
+    &-trait {
+        @include size(px-to-rem(90px), px-to-rem(2px));
+        background-color: $background-color-darc;
+    }
+}
+
+
+.trait {
+    @include size(100%, px-to-rem(1px));
+    background-color: $subtitle-font-color;
+    margin: px-to-rem(100px) 0 px-to-rem(130px);
+}
+
