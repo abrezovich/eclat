@@ -10,13 +10,14 @@
         margin:0;
         padding:0;
         z-index:-2; 
-        background:white;
+       // background:white;
         position: absolute;
         top:0;
         left:0;
         animation: anim_slides 18s linear infinite 0s;
     }
     &_slides li:nth-child(1){
+        //animation-delay: 5.0s;
        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/slide_header1.jpg); 
     clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 50% 100%, 0% 87%);
     background-size:cover;
@@ -42,14 +43,14 @@
 
 
     @-webkit-keyframes anim_slides {
-        0% {opacity:0.1;}
+        0% {opacity:0.0;}
         6% {opacity:0.25;}
         12%{opacity:0.5;}
         24% {opacity:1;}
         30% {opacity:1;}
         50%{opacity: 0.5;}
         80%{opacity: 0.25;}
-        100% {opacity:0.1;}
+        100% {opacity:0.0;}
         }
         
      
