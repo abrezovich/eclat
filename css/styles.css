@@ -38,8 +38,8 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    -webkit-animation: anim_slides 18s linear infinite 0s;
-    animation: anim_slides 18s linear infinite 0s; }
+    -webkit-animation: anim_slides 24s linear infinite 0s;
+    animation: anim_slides 24s linear infinite 0s; }
   .header_slides li:nth-child(1) {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../image/home/slide_header1.jpg);
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/slide_header1.jpg);
@@ -49,8 +49,8 @@ body {
     clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 50% 100%, 0% 87%);
     background-size: cover; }
   .header_slides li:nth-child(2) {
-    -webkit-animation-delay: 6.0s;
-    animation-delay: 6.0s;
+    -webkit-animation-delay: 8.0s;
+    animation-delay: 8.0s;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../image/home/slide_header2.jpg);
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/slide_header2.jpg);
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/slide_header2.jpg);
@@ -59,8 +59,8 @@ body {
     clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 50% 100%, 0% 87%);
     background-size: cover; }
   .header_slides li:nth-child(3) {
-    -webkit-animation-delay: 12.0s;
-    animation-delay: 12.0s;
+    -webkit-animation-delay: 16.0s;
+    animation-delay: 16.0s;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../image/home/slide_header3.jpg);
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/slide_header3.jpg);
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/slide_header3.jpg);
@@ -362,7 +362,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 150px; }
+  margin-bottom: 150px;
+  background-image: url(../image/index/paper-3201417_1920.jpg); }
   .about-title {
     font-size: 2.25rem;
     font-family: "Open Sans", sans-serif;

@@ -1,6 +1,7 @@
 .about {
     display: flex;
     margin-bottom: 150px;
+    background-image: url(../image/index/paper-3201417_1920.jpg);
     &-title {
         @include font-settings(px-to-rem(36px), $header-link-font, $title-font-color);
         font-weight: bold;

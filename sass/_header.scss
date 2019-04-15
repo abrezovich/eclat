@@ -14,7 +14,7 @@
         position: absolute;
         top:0;
         left:0;
-        animation: anim_slides 18s linear infinite 0s;
+        animation: anim_slides 24s linear infinite 0s;
     }
     &_slides li:nth-child(1){
         //animation-delay: 5.0s;
@@ -25,7 +25,7 @@
     }
     &_slides li:nth-child(2){
          
-    animation-delay: 6.0s;
+    animation-delay: 8.0s;
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/slide_header2.jpg);
     clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 50% 100%, 0% 87%);
     background-size:cover;
@@ -35,7 +35,7 @@
        
      //  animation: anim_slides 18s linear infinite 0s;
     
-    animation-delay: 12.0s;
+    animation-delay: 16.0s;
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/slide_header3.jpg); 
     clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 50% 100%, 0% 87%);
     background-size:cover;
