@@ -11,9 +11,10 @@ background-position: center;
     display: none;
 }
 &-list {
-    @include flex(flex, '', flex-end, '', '');
+    @include flex(flex, '', center, '', '');
     list-style: none;
-    margin-top: px-to-rem(5px);
+    margin: px-to-rem(5px) 0;
+    padding:0;
     &-item {
         padding-right: px-to-rem(5px);
     }
@@ -31,7 +32,7 @@ background-position: center;
     }
 }
 &-box {
-    margin-top: px-to-rem(10px);
+    
     @include flex(flex, '', center, center, center);
     flex-direction: column;
     &-title,
@@ -39,7 +40,7 @@ background-position: center;
     &-text {
         @include font-settings('', $header-link-font, $header-link-color);
         text-align: center;
-        margin-bottom: px-to-rem(10px);
+        margin-bottom: px-to-rem(5px);
     }
     &-title {
         font-size: px-to-rem(14px);
@@ -50,22 +51,43 @@ background-position: center;
     }
     &-text {
         font-size: px-to-rem(10px);
-        width: 70%;
+        width: 80%;
     }
     &-trait-box {
         @include flex(flex, '', center, center, '');
-        margin-bottom: px-to-rem(15px);
+        margin-bottom: px-to-rem(5px);
         &-point {
             @include size(px-to-rem(10px), px-to-rem(10px));
             border-radius: px-to-rem(10px);
             background-color: $header-link-hover-color;
-            margin: 0 px-to-rem(18px) 0 px-to-rem(18px);
+            margin: 0 px-to-rem(5px) 0 px-to-rem(5px);
         }
         &-trait {
             @include size(px-to-rem(75px), px-to-rem(2px));
             background-color: $header-link-color;
         }
     }
+    
+  
+}
+&-link-box {
+    @include flex(flex, '', center, '', '');
+}
+&-link {
+    @include font-settings(px-to-rem(10px), $header-link-font, $header-link-color);
+    font-weight: bold;
+    @include text-decor(none, uppercase);
+    display: block;
+    @include size(px-to-rem(100px), px-to-rem(10px));
+    border: solid 1px $header-link-color;
+   padding: px-to-rem(10px);
+   text-align: center;
+  &:hover{
+    border: none;
+    @include font-settings(px-to-rem(10px), $header-link-font, $header-link-color);
+    @include text-decor(none, '');
+    background-color: $header-link-hover-color;
+   }
 }
 }
 
@@ -148,28 +170,6 @@ background-position: center;
      //  background-size: cover;
        
        
-        &-link-box {
-            @include flex(flex, '', center, '', '');
-        }
-        &-link {
-            @include font-settings(px-to-rem(14px), $header-link-font, $header-link-color);
-            font-weight: bold;
-            @include text-decor(none, uppercase);
-            display: block;
-            @include size(px-to-rem(220px), px-to-rem(50px));
-            border: solid 1px $header-link-color;
-           padding: px-to-rem(14px);
-           text-align: center;
-           &:first-child{
-               margin-right: px-to-rem(30px);
-           }
-           &:hover{
-            border: none;
-            @include font-settings(px-to-rem(14px), $header-link-font, $header-link-color);
-            @include text-decor(none, '');
-            background-color: $header-link-hover-color;
-           }
-        }
     }
 }
 */
