@@ -16,11 +16,10 @@ body {
   display: flex;
   min-width: 100%;
   min-height: 62.5rem;
-  margin: auto;
-  background-size: cover; }
+  margin: auto; }
   .header_slides li {
     width: 100%;
-    height: auto;
+    height: 1000px;
     margin: 0;
     padding: 0;
     z-index: -2;
@@ -43,8 +42,7 @@ body {
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/slide_header1.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/slide_header1.jpg);
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 50% 100%, 0% 87%);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 50% 100%, 0% 87%);
-    background-size: contain; }
+    clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 50% 100%, 0% 87%); }
   .header_slides li:nth-child(2) {
     -webkit-animation-delay: 6.0s;
     animation-delay: 6.0s;
@@ -53,8 +51,7 @@ body {
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/slide_header2.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/slide_header2.jpg);
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 50% 100%, 0% 87%);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 50% 100%, 0% 87%);
-    background-size: contain; }
+    clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 50% 100%, 0% 87%); }
   .header_slides li:nth-child(3) {
     -webkit-animation-delay: 12.0s;
     animation-delay: 12.0s;
@@ -63,8 +60,7 @@ body {
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/slide_header3.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/slide_header3.jpg);
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 50% 100%, 0% 87%);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 50% 100%, 0% 87%);
-    background-size: contain; }
+    clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 50% 100%, 0% 87%); }
 
 @-webkit-keyframes anim_slides {
   0% {
@@ -1056,26 +1052,3 @@ background-image: url(../image/home/slide_header3.jpg);
 clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 50% 100%, 0% 87%);
 background-size:cover;
 }*/
-@-webkit-keyframes anim_slides {
-  0% {
-    opacity: 0; }
-  6% {
-    opacity: 1; }
-  24% {
-    opacity: 1; }
-  30% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
-
-@-moz-keyframes anim_slides {
-  0% {
-    opacity: 0; }
-  6% {
-    opacity: 1; }
-  24% {
-    opacity: 1; }
-  30% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
