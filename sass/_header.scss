@@ -1,11 +1,12 @@
 .header{
-display: block;
-width: 320px;
+display: flex;
+min-width: 320px;
 height: auto;
 margin: auto;
 background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/slide_header1.jpg); 
 background-size: contain;
 background-repeat: no-repeat;
+background-position: center;
 &_slides{
     display: none;
 }
@@ -20,7 +21,7 @@ background-repeat: no-repeat;
         @include font-settings(px-to-rem(10px), $header-link-font, $header-link-color);
         font-weight: bold;
         @include text-decor(none, uppercase);
-        padding-bottom: px-to-rem(30px);
+        padding-bottom: px-to-rem(5px);
         &:hover {
             text-decoration: none;
             color: $header-link-hover-color;
