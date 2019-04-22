@@ -1,10 +1,10 @@
 .header{
-display: flex;
+display: block;
 min-width: 320px;
-height: auto;
+height: 100vh;
 margin: auto;
-background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/slide_header1.jpg); 
-background-size: contain;
+background-image:linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0, 0.5)), url(../image/home/introduction_320_1.jpg); 
+background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 &_slides{
@@ -39,23 +39,25 @@ background-position: center;
     &-subtitle,
     &-text {
         @include font-settings('', $header-link-font, $header-link-color);
-        text-align: center;
-        margin-bottom: px-to-rem(5px);
+        text-align: justify;
+        margin-bottom: 0;
+        margin-top: 0;
     }
     &-title {
         font-size: px-to-rem(14px);
         font-weight: bold;
     }
     &-subtitle {
-        font-size: px-to-rem(10px);
+        font-size: px-to-rem(20px);
     }
     &-text {
-        font-size: px-to-rem(10px);
+        font-size: px-to-rem(15px);
         width: 80%;
+        text-indent: px-to-rem(20px);
     }
     &-trait-box {
         @include flex(flex, '', center, center, '');
-        margin-bottom: px-to-rem(5px);
+        margin-bottom: px-to-rem(10px);
         &-point {
             @include size(px-to-rem(10px), px-to-rem(10px));
             border-radius: px-to-rem(10px);

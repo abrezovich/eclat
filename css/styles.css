@@ -1,15 +1,13 @@
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   min-width: 320px;
-  height: auto;
+  height: 100vh;
   margin: auto;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../image/home/slide_header1.jpg);
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/slide_header1.jpg);
-  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/slide_header1.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/slide_header1.jpg);
-  background-size: contain;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../image/home/introduction_320_1.jpg);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/introduction_320_1.jpg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/introduction_320_1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/introduction_320_1.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
   .header_slides {
@@ -68,16 +66,18 @@
       font-size: "";
       font-family: "Open Sans", sans-serif;
       color: #e6d897;
-      text-align: center;
-      margin-bottom: 0.3125rem; }
+      text-align: justify;
+      margin-bottom: 0;
+      margin-top: 0; }
     .header-box-title {
       font-size: 0.875rem;
       font-weight: bold; }
     .header-box-subtitle {
-      font-size: 0.625rem; }
+      font-size: 1.25rem; }
     .header-box-text {
-      font-size: 0.625rem;
-      width: 80%; }
+      font-size: 0.9375rem;
+      width: 80%;
+      text-indent: 1.25rem; }
     .header-box-trait-box {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -92,7 +92,7 @@
       align-items: center;
       -ms-flex-line-pack: "";
       align-content: "";
-      margin-bottom: 0.3125rem; }
+      margin-bottom: 0.625rem; }
       .header-box-trait-box-point {
         width: 0.625rem;
         height: 0.625rem;
