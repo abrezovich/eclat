@@ -1,0 +1,15 @@
+.introduction_text{
+    @include font-settings('', $header-link-font, $header-link-color);
+    text-align: justify;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: px-to-rem(15px);
+    width: 80%;
+    text-indent: px-to-rem(20px);
+
+}
+.introduction_box{
+    padding-top: px-to-rem(10px);
+    @include flex(flex, '', center, center, center);
+    flex-direction: column;
+}

@@ -27,7 +27,8 @@
     -ms-flex-line-pack: "";
     align-content: "";
     list-style: none;
-    margin: 0.3125rem 0;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
     padding: 0; }
     .header-list-item {
       padding-right: 0.3125rem; }
@@ -45,6 +46,7 @@
         border-bottom: solid 0.0625rem;
         border-color: #e74c3c; }
   .header-box {
+    padding-top: 0.625rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -61,7 +63,8 @@
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column; }
+    flex-direction: column;
+    margin-bottom: 2.5rem; }
     .header-box-title, .header-box-subtitle, .header-box-text {
       font-size: "";
       font-family: "Open Sans", sans-serif;
@@ -73,7 +76,9 @@
       font-size: 0.875rem;
       font-weight: bold; }
     .header-box-subtitle {
-      font-size: 1.25rem; }
+      padding-top: 0.625rem;
+      font-size: 1.25rem;
+      text-align: center; }
     .header-box-text {
       font-size: 0.9375rem;
       width: 80%;
@@ -92,6 +97,7 @@
       align-items: center;
       -ms-flex-line-pack: "";
       align-content: "";
+      margin-top: 0.625rem;
       margin-bottom: 0.625rem; }
       .header-box-trait-box-point {
         width: 0.625rem;
@@ -139,6 +145,14 @@
       text-transform: "";
       background-color: #e74c3c; }
 
+/*
+ .home{
+    background-image:linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0, 0.5)), url(../image/home/introduction_320_1.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+*/
 /*
 
 @media (min-width 768px){
@@ -220,6 +234,37 @@
     }
 }
 */
+.introduction_text {
+  font-size: "";
+  font-family: "Open Sans", sans-serif;
+  color: #e6d897;
+  text-align: justify;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 0.9375rem;
+  width: 80%;
+  text-indent: 1.25rem; }
+
+.introduction_box {
+  padding-top: 0.625rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: "";
+  flex-wrap: "";
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
 /*@import 'base';
 
 @import 'main';

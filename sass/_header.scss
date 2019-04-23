@@ -7,13 +7,15 @@ background-image:linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0, 0.5)), url(../
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
+
 &_slides{
     display: none;
 }
 &-list {
     @include flex(flex, '', center, '', '');
     list-style: none;
-    margin: px-to-rem(5px) 0;
+    margin-top: px-to-rem(10px);
+    margin-bottom: px-to-rem(10px);
     padding:0;
     &-item {
         padding-right: px-to-rem(5px);
@@ -32,9 +34,10 @@ background-position: center;
     }
 }
 &-box {
-    
+    padding-top: px-to-rem(10px);
     @include flex(flex, '', center, center, center);
     flex-direction: column;
+    margin-bottom: px-to-rem(40px);
     &-title,
     &-subtitle,
     &-text {
@@ -48,7 +51,9 @@ background-position: center;
         font-weight: bold;
     }
     &-subtitle {
+        padding-top: px-to-rem(10px);
         font-size: px-to-rem(20px);
+        text-align: center;
     }
     &-text {
         font-size: px-to-rem(15px);
@@ -57,6 +62,7 @@ background-position: center;
     }
     &-trait-box {
         @include flex(flex, '', center, center, '');
+        margin-top: px-to-rem(10px);
         margin-bottom: px-to-rem(10px);
         &-point {
             @include size(px-to-rem(10px), px-to-rem(10px));
@@ -92,8 +98,14 @@ background-position: center;
    }
 }
 }
-
-
+/*
+ .home{
+    background-image:linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0, 0.5)), url(../image/home/introduction_320_1.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+*/
 /*
 
 @media (min-width 768px){
