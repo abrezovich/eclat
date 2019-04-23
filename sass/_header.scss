@@ -80,6 +80,7 @@ background-position: center;
 }
 &-link-box {
     @include flex(flex, '', center, '', '');
+    padding-bottom: px-to-rem(30px);
 }
 &-link {
     @include font-settings(px-to-rem(10px), $header-link-font, $header-link-color);

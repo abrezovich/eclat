@@ -122,7 +122,8 @@
     -ms-flex-align: "";
     align-items: "";
     -ms-flex-line-pack: "";
-    align-content: ""; }
+    align-content: "";
+    padding-bottom: 1.875rem; }
   .header-link {
     font-size: 0.625rem;
     font-family: "Open Sans", sans-serif;
