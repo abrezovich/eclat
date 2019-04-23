@@ -3,13 +3,13 @@
   min-width: 320px;
   height: auto;
   margin: auto;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../image/home/introduction_320_1.jpg);
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/introduction_320_1.jpg);
-  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/introduction_320_1.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/home/introduction_320_1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; }
+  background: seashell;
+  /*
+background-image:linear-gradient(rgba(0, 0, 0,0.3), rgba(0, 0, 0, 0.3)), url(../image/home/introduction_320_1.jpg); 
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+*/ }
   .header_slides {
     display: none; }
   .header-list {
@@ -35,7 +35,7 @@
     .header-list-link {
       font-size: 0.625rem;
       font-family: "Open Sans", sans-serif;
-      color: #e6d897;
+      color: #58230D;
       font-weight: bold;
       text-decoration: none;
       text-transform: uppercase;
@@ -68,7 +68,7 @@
     .header-box-title, .header-box-subtitle, .header-box-text {
       font-size: "";
       font-family: "Open Sans", sans-serif;
-      color: #e6d897;
+      color: #58230D;
       text-align: justify;
       margin-bottom: 0;
       margin-top: 0; }
@@ -108,7 +108,7 @@
       .header-box-trait-box-trait {
         width: 4.6875rem;
         height: 0.125rem;
-        background-color: #e6d897; }
+        background-color: #58230D; }
   .header-link-box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -127,21 +127,21 @@
   .header-link {
     font-size: 0.625rem;
     font-family: "Open Sans", sans-serif;
-    color: #e6d897;
+    color: #58230D;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
     display: block;
     width: 6.25rem;
     height: 0.625rem;
-    border: solid 1px #e6d897;
+    border: solid 1px #58230D;
     padding: 0.625rem;
     text-align: center; }
     .header-link:hover {
       border: none;
       font-size: 0.625rem;
       font-family: "Open Sans", sans-serif;
-      color: #e6d897;
+      color: #58230D;
       text-decoration: none;
       text-transform: "";
       background-color: #e74c3c; }
@@ -238,7 +238,7 @@
 .introduction_text {
   font-size: "";
   font-family: "Open Sans", sans-serif;
-  color: #e6d897;
+  color: #58230D;
   text-align: justify;
   margin-bottom: 0;
   margin-top: 0;
@@ -266,9 +266,22 @@
   -ms-flex-direction: column;
   flex-direction: column; }
 
+.main {
+  display: block;
+  min-width: 320px;
+  height: auto;
+  margin: auto;
+  background: seashell;
+  /*
+background-image:linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0, 0.5)), url(../image/home/introduction_320_2.jpg); 
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+*/ }
+
 /*@import 'base';
 
-@import 'main';
+
 @import 'who';
 @import 'about';
 @import 'services';
