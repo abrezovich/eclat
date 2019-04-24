@@ -39,7 +39,7 @@ background-position: center;
     padding-top: px-to-rem(10px);
     @include flex(flex, '', center, center, center);
     flex-direction: column;
-    margin-bottom: px-to-rem(40px);
+   // margin-bottom: px-to-rem(40px);
     &-title,
     &-subtitle,
     &-text {
@@ -54,8 +54,9 @@ background-position: center;
     }
     &-subtitle {
         padding-top: px-to-rem(10px);
-        font-size: px-to-rem(20px);
+        font-size: px-to-rem(15px);
         text-align: center;
+        align-content:  center;
     }
     &-text {
         font-size: px-to-rem(15px);
@@ -77,7 +78,19 @@ background-position: center;
             background-color: $header-link-color;
         }
     }
-    
+   &-logo-box{
+       display: flex;
+       
+   } 
+   &-tagline{
+      // justify-content: center;
+     
+   }
+   &-logo{
+      
+       
+   }
+
   
 }
 &-link-box {
@@ -100,6 +113,9 @@ background-position: center;
     background-color: $header-link-hover-color;
    }
 }
+}
+.mob{
+    display: none;
 }
 /*
  .home{
