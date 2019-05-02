@@ -87,7 +87,8 @@ background-position: center;
      
    }
    &-logo{
-      
+      width: 100%;
+      height: auto;
        
    }
 
@@ -114,6 +115,8 @@ background-position: center;
    }
 }
 }
+
+
 .mob{
     display: none;
 }
