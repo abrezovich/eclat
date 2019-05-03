@@ -14,7 +14,7 @@ background-position: center;
     display: none;
 }
 &-list {
-    @include flex(flex, '', center, '', '');
+   @include flex(flex, '', center, '', '');
     list-style: none;
     margin-top: px-to-rem(10px);
     margin-bottom: px-to-rem(10px);
